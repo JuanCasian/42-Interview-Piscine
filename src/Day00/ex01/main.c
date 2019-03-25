@@ -15,6 +15,14 @@ int main(void)
 	launch your test here
 	--------------------*/
 
+	// sort array
+	sortArts(arts);
+
+	//print sorted array
+	for (int i = 0; arts[i]; i++) {
+		printf("%s => %d\n", arts[i]->name, arts[i]->price);
+	}
+
 	return (0);
 }
 

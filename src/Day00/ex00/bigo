@@ -1,0 +1,4 @@
+Time complexity = O(n) ; n being the number of elements in the array
+	- because you look at each cell of the array 1 time
+
+Space Complexity = O(1) ; because you are not adding more memory and you are passed a pointer reference
