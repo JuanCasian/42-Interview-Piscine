@@ -15,7 +15,22 @@ int main(void)
 	launch your test here
 	--------------------*/
 	//printf("price for the art \'%s\' is %d\n", "Guernica", searchPrice(arts, "Guernica"));
+	int rand_num;
+	int my_n;
 
+	my_n = 94888; //Counted the art pieces
+
+	// test of art pieces that are there
+	for (int i = 0; i < 10; i++)
+	{
+		rand_num = rand() % my_n;
+		printf("price for the art \'%s\' is %d\n", arts[rand_num]->name, searchPrice(arts, my_n, arts[rand_num]->name));
+	}
+	// test of art piece that does not exits
+	if (searchPrice(arts, my_n, "Do not exist") == -1)
+		printf("Piece that does not exist test PASSED!\n");
+	else
+		printf("Piece that does not exist test NOT PASSED!\n");
 	return (0);
 }
 
