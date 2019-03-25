@@ -1,0 +1,9 @@
+Time complexity:
+	- Average: O(n+m) ; where m is the pattern size and n is the text size
+	- Worst case: O(nm) ; where m is the pattern size and n is the text size
+		- This would happen if all the hashes where the same
+
+Space complexity:
+	- O(1) 
+		- Because again we are not adding memory, and the values are passed as references
+			- We add some variables but space still remains constant
