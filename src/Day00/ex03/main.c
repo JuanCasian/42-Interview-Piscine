@@ -14,10 +14,36 @@ int main(void)
 	/*-------------------
 	launch your test here
 	--------------------*/
-	//struct s_dict *dict;
-	//
-	//
+	int				n;
+	struct s_dict 	*dict;
+	int				rand_num;
 
+	n = 0;
+	while (arts[n])
+		n++;
+	if (!(dict = dictInit(n)))
+	{
+		printf("Could not create the hash_table\n");
+		return (-1);
+	}
+	n = -1;
+	while (arts[++n])
+		if (!(dictInsert(dict, arts[n]->name, arts[n])))
+		{
+			printf("Could not add to hash_table\n");
+			printf("OBJECT: %s\n", arts[n]->name);
+			return (-1);
+		}
+	for (int i = 0; i < 10; i++)
+	{
+		rand_num = rand() % n;
+		printf("price for the art \'%s\' is %d\n", arts[rand_num]->name, searchPrice(dict, arts[rand_num]->name));
+	}
+	// test of art piece that does not exits
+	if (searchPrice(dict, "Do not exist") == -1)
+		printf("Piece that does not exist test PASSED!\n");
+	else
+		printf("Piece that does not exist test NOT PASSED!\n");
 	return (0);
 }
 

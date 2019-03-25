@@ -1,0 +1,8 @@
+Time Complexity = O(log_2(n)) ; where n is the length of the array
+	- because you will be dividing the posibilities by 2 on every search
+
+Space Complexity = O(1) ;
+	- because you don't add more memory and the input is passed as a pointer
+		also the variables are added in O(1)
+
+https://hackernoon.com/what-does-the-time-complexity-o-log-n-actually-mean-45f94bb5bfbf
