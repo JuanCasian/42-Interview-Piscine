@@ -1,0 +1,6 @@
+Spacetime complexity = O(1) ; for all except the add
+	- O(n) ;  for add method
+
+Timecomplexity = O(n) ; where n is word length -> this for all except whatWasThat 
+	- O(n * (m + r)) ; where n is the number of words in the dict and m is the number of letters in word and r
+		is the number of letters in dictionary words
