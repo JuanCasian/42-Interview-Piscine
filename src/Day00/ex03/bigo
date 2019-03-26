@@ -1,0 +1,7 @@
+Time Complexity = O(1) ;
+	- because you are just supose to have one item per hash table entry, even do some times you can get colisions the 
+		average should be constant
+Space Complexity = O(n) ; where n is the number of art pieces
+	- because you are creating new hash table items for each of the art pieces
+
+**Note: If you don't take into account the hash table creation then your space complexity would be O(1)

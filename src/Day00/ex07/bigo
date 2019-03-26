@@ -1,0 +1,4 @@
+Space complexity = O(1)
+	- Because there was no use of extra memory
+Time complexity = O(n)
+	- Because go through every element in the array

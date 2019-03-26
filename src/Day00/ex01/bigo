@@ -1,0 +1,8 @@
+Time complexit= O(n * 2) ; where is the length of the array
+	- Becuase in the worst case which is the array is sorted backwards I would need to go throught the array
+		twice, one in the front and then other going back to put the elements
+
+Space Complexity = O(1) ;
+	- Because no more memory was used and the array was passed as a pointer
+
+Time to run: ./sortArts  99.01s user 3.14s system 63% cpu

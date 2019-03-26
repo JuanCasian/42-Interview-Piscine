@@ -1,0 +1,12 @@
+Constant amortized time is when you do an operation million times in in a constant time but you can sometimes
+	get a bad case in which the operation is not constant
+	- For example in a dynamic string, you can append a million times to the string and only sometimes you'll need to
+		reallocate more memory
+
+
+For decompress:
+Time complexity = O(n) ; where n is the size of the string
+	- Because I go over the string letter by letter and then I just add the word from the header
+
+space complexity = O(n + w) ; where n is the size of the string and w is the extra words in the compression
+	- Because I allocate memory only for the book and the extra words
