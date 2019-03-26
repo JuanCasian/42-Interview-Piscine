@@ -5,11 +5,22 @@
 
 #include "header.h"
 
+int ft_strlen(char *len)
+{
+	int i;
+
+	i = 0;
+	while(len[i])
+		i++;
+	return (i);
+}
+
 int main(void)
 {
 	char *book;
 	char **words;
 	int lenWords;
+	char *res;
 
 	//getting the book and the list of words
 	book = readBookFile();
@@ -18,13 +29,14 @@ int main(void)
 	/*-------------------
 	launch your test here
 	--------------------*/
-	//struct s_dict *dict;
-	//
-	//dict = dictInit(lenWords);
-	//
-	//for (int i = 0; i < lenWords; i++)
-	//	dictInsert(dict, words[i], i);
-	//
+	struct s_dict *dict;
+	
+	dict = dictInit(lenWords);
+	
+	for (int i = 0; i < lenWords; i++)
+		dictInsert(dict, words[i], i);
+	res = compress(book, dict);
+	printf("%s\n", res);
 
 	return (0);
 }

@@ -14,7 +14,7 @@
 #include <string.h>
 
 #define n_chars 256
-
+//Rabin-Karp algorithm
 int howManyJesus(char *bible, char *jesus)
 {
 	int	pat_len, txt_len, pat_hash, txt_hash; //Algorithm necesary variables

@@ -1,0 +1,6 @@
+Space complexity: O(n) ; where n is the size of the characters array
+	- Because I create 3 more array of characters with the size of the book at max
+
+Time complexity: O(n * m) ; where n is the size of the characters array and m is the
+									number of items in the hash table
+	- Because I go through every character of the string and then compare it with each of the items in the hash table
