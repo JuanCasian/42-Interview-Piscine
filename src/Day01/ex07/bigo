@@ -1,0 +1,5 @@
+Space complexity: O(n) ; where n is the number is nodes in the linked list
+	- because I create a new node per each ndoe in the list;
+
+Time complexity: O(n) ;  where n is the number of node 
+	- because I go through the list 3 times and the constants does not count
