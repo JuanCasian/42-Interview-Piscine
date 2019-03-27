@@ -1,0 +1,3 @@
+Space complexity = O(1) ; because I do not add more memory and the list is passes as pointer;
+
+Time complexity = O(n) ; where n is the length of the linked list

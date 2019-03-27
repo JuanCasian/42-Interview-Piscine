@@ -14,8 +14,15 @@ int main(void)
 	/*-------------------
 	launch your test here
 	--------------------*/
-	//printf("%s\n", NthLastCity(city, 2)); //should return 'Kobylin'
-	//printf("%s\n", NthLastCity(city, 10)); //should return 'Jastrzebie-Zdroj'
+	printf("%s\n", NthLastCity(city, 2)); //should return 'Kobylin'
+	printf("%s\n", NthLastCity(city, 10)); //should return 'Jastrzebie-Zdroj'
+
+	// while (city)
+	// {
+	// 	printf("|%s|->", city->name);
+	// 	city = city->next;
+	// }
+	// printf("|NULL|\n");
 
 	return (0);
 }
