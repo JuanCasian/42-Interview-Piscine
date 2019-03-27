@@ -1,6 +1,11 @@
 #ifndef HEADER_H
 # define HEADER_H
 
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+
+# define LEN 257
 /*--------------------------------
   !! required structure
   --------------------------------*/
