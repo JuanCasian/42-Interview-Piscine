@@ -1,0 +1,5 @@
+Space complexity
+	O(1) ; because you only allocate memory once everytime you might need it
+
+Time complexity
+	O(1) ; because you only add or delete from the top of the stacks
