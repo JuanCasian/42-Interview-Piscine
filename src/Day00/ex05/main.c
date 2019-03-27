@@ -36,7 +36,6 @@ int main(void)
 	for (int i = 0; i < lenWords; i++)
 		dictInsert(dict, words[i], i);
 	res = compress(book, dict);
-	printf("%s\n", res);
 
 	return (0);
 }
