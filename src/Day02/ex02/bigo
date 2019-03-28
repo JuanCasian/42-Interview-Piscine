@@ -1,0 +1,8 @@
+Time complexity: 
+	- Worst case: O(n^2) ; when the pivot is always the biggest element
+	- Avergae/best case: O(nlog(n)) ; when your pivot is always the middle point
+Space complexity:
+	- Average: O (log(n)); because of the calls you do to the stack
+	= Worst : O(n); when your pivot is always the max
+
+- Still not sure if the stack calls are counted to the space complexity, because you are passing the arrays as a pointer

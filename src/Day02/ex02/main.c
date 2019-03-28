@@ -10,15 +10,15 @@ int main(void)
 {
 	struct s_player **players;
 
-	players = genRandomPlayers(10000); //if param == 0, the length of the list will be random between 1 and 1.000
+	players = genRandomPlayers(30); //if param == 0, the length of the list will be random between 1 and 1.000
 
 	/*-------------------
 	launch your test here
 	--------------------*/
-	//printPlayers(players);
-	//printf("doing the quick sort...\n");
-	//quickSort(players);
-	//printPlayers(players);
+	printPlayers(players);
+	printf("doing the quick sort...\n");
+	quickSort(players);
+	printPlayers(players);
 
 	return (0);
 }
