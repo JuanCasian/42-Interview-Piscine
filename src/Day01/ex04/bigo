@@ -1,0 +1,5 @@
+Space complexity  of all operations = O(1) ; because you only allocate memory per each element you add and then
+	you free it when you pop it
+
+Time complexity of all operations = O(1) ; because in order to add, peeek or whatever you only look at one of the pointers
+	in the queue structure

@@ -1,0 +1,8 @@
+Time complexity 
+	-  average time = O(N + E) ; where N is the number of nodes and E will be the number of edges
+		- because I will only visit once each node
+	-  Worst case = O(N^2) ; where N is the number of nodes
+		- because in order to look for the checked nodes and the parents I need to iterate through a list of nodes
+
+Space complexity = O(n * 3) ; where n is the number of nodes
+	- Because I create more linked list with the nodes to look for parents and visited nodes and a queue

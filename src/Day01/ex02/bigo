@@ -1,0 +1,5 @@
+Space complexity = O(n) ; where n is the number of nodes in the list
+	- because I am creating a new stack item for each node
+
+Time complexity = O(n) ; where n is the number of nodes in the list
+	- Because I need to go through the whole list to create the stack and print it

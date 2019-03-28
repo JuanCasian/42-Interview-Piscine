@@ -1,0 +1,6 @@
+Space complexity = O(1) ; because there is no more memory being used and the variable is passed as a pointer
+	
+https://www.cs.northwestern.edu/academics/courses/311/html/space-complexity.html
+
+Time complexity = O(n) ; where n is the number of nodes
+	- because you go only once through every node
