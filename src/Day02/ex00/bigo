@@ -1,0 +1,10 @@
+Space complexity = O(G) ; G is the number of groups
+	- because I create a group structure per each group
+
+Time complexity 
+	- Worst case: O(G^2) ; where G is the number of groups they are
+		- becuase if the whole thing is sorted backwards
+	- Best case O(G) ; when the list is sorted
+
+- The algorithm is optimized to work with the grouped numbers and if the array is sorted before the end of
+	the bubble sort then it won't continue sorting

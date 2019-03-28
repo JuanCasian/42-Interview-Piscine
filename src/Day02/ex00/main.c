@@ -10,14 +10,14 @@ int main(void)
 {
 	struct s_stone *stone;
 
-	stone = genRandomStoneList(30); //if param == 0, the length of the list will be between 1 and 1 million
+	stone = genRandomStoneList(50); //if param == 0, the length of the list will be between 1 and 1 million
 
 	printStone(stone);
 	/*-------------------
 	launch your test here
 	--------------------*/
-	//sortStones(&stone);
-	//printStone(stone);
+	sortStones(&stone);
+	printStone(stone);
 
 	return (0);
 }
