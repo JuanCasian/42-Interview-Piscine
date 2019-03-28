@@ -1,0 +1,4 @@
+Time complexity =  O(n log(n)) ; where n is the number of things in the array
+	- it is always the same
+
+Space complexity = O(n) ; because yo always need to allocate a temporary array for the task
