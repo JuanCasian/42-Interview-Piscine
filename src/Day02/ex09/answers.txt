@@ -1,0 +1,6 @@
+1) External sorting because you won't probably have enough ram to sort it.
+2) Counting sort because it is a limited range and it is run in O(n + k)
+3) Insertion sort or bubble sort, becasue they have O(1) space complexity, 
+	insertion sort mostly because it performs better than bubble sort if the array is kind of sorted
+4) Insertion sort because you wont do a liot of moves to put them in the right place, and you won't use a lot of memory
+5) Insertion sort because it won't take more than O(n) to put that one into place
