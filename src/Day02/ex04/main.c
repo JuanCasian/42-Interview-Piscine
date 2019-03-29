@@ -9,7 +9,7 @@
 int main(void)
 {
 	unsigned char *utensils;
-	int n = 1000;
+	int n = 30;
 	utensils = genRandomUstensils(&n); //if param == 0, the length of the list will be random between 1 and 1 million
 
 	/*-------------------
@@ -17,10 +17,10 @@ int main(void)
 	--------------------*/
 	printUtensils(utensils, n);
 
-	//printf("sorting using count sort...\n");
-	//countSort(utensils, n);
+	printf("sorting using count sort...\n");
+	countSort(utensils, n);
 
-	//printUtensils(utensils, n);
+	printUtensils(utensils, n);
 
 	return (0);
 }
