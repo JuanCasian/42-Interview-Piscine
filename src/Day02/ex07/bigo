@@ -1,0 +1,5 @@
+Time complexity = O(n) ; where n is the number of elements in the array
+	- Because I look into each element of the array
+
+Space complexity = O(n) ; where n is the number of elements in the array
+	- Because of the function calls in the stack
