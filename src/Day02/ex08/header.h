@@ -1,6 +1,11 @@
 #ifndef HEADER_H
 # define HEADER_H
-
+#include <stdio.h> //printf, scanf, ...
+#include <string.h> //memcpy, strlen, ...
+#include <unistd.h> //fork, write, sleep...
+#include <stdlib.h> //malloc, free, exit...
+#include <sys/resource.h>
+#include <sys/stat.h>
 /*--------------------------------
   !! required structure
   --------------------------------*/
@@ -11,6 +16,12 @@ struct s_block {
 	int *scores;
 	int n;
 };
+
+typedef struct s_minheap {
+	int *harr;
+	int capacity;
+	int	heap_size;
+}				t_minheap;
 
 /*--------------------------------
   :) function you must implement
