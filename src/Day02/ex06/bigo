@@ -1,0 +1,3 @@
+Time complexity = O(nk) ; where n is the number of elements in the aray and k is the number of digits in the max value
+
+Space complexity = O(n + k) because you need to create an output array in the counting sort and another for the indexes
