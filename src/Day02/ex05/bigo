@@ -1,0 +1,7 @@
+Time complexity:
+	- Average : O(log(n)) ; where n is the number of elements in the array
+		- because you are doing a binary search on int
+	- Worst case : O(n) ; this would happen if you have an array in which you can't decide to go left or right
+		- {2, 0 ,2 ,2 ,2 ,2 ,2}
+
+Space complexity: O(1); because the eleements are passed as pointer

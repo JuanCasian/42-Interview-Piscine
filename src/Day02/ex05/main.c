@@ -9,23 +9,25 @@
 int main(void)
 {
 	int n;
-	int *rocks;
+	// int *rocks;
 	int value;
 
-	srand(time(NULL));
-	n = rand() % 90 + 10;
-	rocks = createRandomArray(n);
-	if (rand() % 2)
-		value = rand() % 30;
-	else
-		value = rocks[rand() % n];
+	// srand(time(NULL));
+	// n = rand() % 90 + 10;
+	// rocks = createRandomArray(n);
+	// if (rand() % 2)
+	// 	value = rand() % 30;
+	// else
+	// 	value = rocks[rand() % n];
 
 	/*-------------------
 	launch your test here
 	--------------------*/
-
+	int rocks[] = {2, 0, 2, 2, 2, 2, 2, 2, 2};
+	n = 9;
+	value = 0;
 	printArray(rocks, n);
-	// printf("Value %d at index %d\n", value, searchShifted(rocks, n, value));
+	printf("Value %d at index %d\n", value, searchShifted(rocks, n, value));
 }
 
 
