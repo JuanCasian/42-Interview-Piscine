@@ -23,10 +23,10 @@ int main(int ac, char **av)
 	launch your test here
 	--------------------*/
 
-	// sortCriminals(criminals);
-	// info = getInfo(av[1]);
-	// potentialCriminals = findPotentialCriminals(criminals, info);
-	// printCriminals(potentialCriminals);
+	sortCriminals(criminals);
+	info = getInfo(av[1]);
+	potentialCriminals = findPotentialCriminals(criminals, info);
+	printCriminals(potentialCriminals);
 
 	return (0);
 }
