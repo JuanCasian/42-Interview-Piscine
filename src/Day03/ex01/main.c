@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int len = 5;
+	int len = 10;
 	int *arr = malloc(sizeof(int) * len);
 
 	for (int i = 0; i < len; i++){
@@ -16,10 +16,13 @@ int main(void)
 	/*-------------------
 	launch your test here
 	--------------------*/
-//	struct s_node *root;
+	struct s_node *root;
 
-//	root = createBST(arr, len);
-//	printBinaryTree(root);
+	for (int j = 0; j < len; j++)
+		printf("|%i| ", arr[j]);
+	printf("\n");
+	root = createBST(arr, len);
+	printBinaryTree(root);
 
 	return (0);
 }
