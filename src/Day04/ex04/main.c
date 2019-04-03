@@ -19,7 +19,7 @@ int main(int ac, char **av)
 	/*-------------------
 	launch your test here
 	--------------------*/
-
+	printf("Values: %i\n", getPlace(parkingRow, pos));
 	printf("Parking place %d: %s\n", pos, (getPlace(parkingRow, pos)) ? "occupied" : "vacant");
 
 	return (0);
