@@ -17,7 +17,7 @@ int main(int ac, char **av)
 	/*-------------------
 	launch your test here
 	--------------------*/
-	//printf("%d : %.2f\n", pizzaSize, bestPrice(pizzaSize, pricesCont->items));
+	printf("%d : %.2f\n", pizzaSize, bestPrice(pizzaSize, pricesCont->items));
 
 	return (0);
 }
@@ -29,7 +29,7 @@ int main(int ac, char **av)
 **	PARSING
 */
 
-#define FILENAME "list.txt"
+#define FILENAME "/Users/jcasian/Documents/42-Interview-Piscine/src/Day05/ex01/list.txt"
 
 char    *readFile(void)
 {
