@@ -31,8 +31,8 @@ int main(int ac, char **av)
 	launch your test here
 	--------------------*/
 
-	// prob = knightOut(board, n);
-	// printf("Probability knight out in %d move(s) : %.10f\n", n, prob);
+	prob = knightOut(board, n);
+	printf("Probability knight out in %d move(s) : %.10f\n", n, prob);
 
 	return (0);
 }

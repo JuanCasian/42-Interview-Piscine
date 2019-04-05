@@ -1,0 +1,5 @@
+space complexity O(s * N^2) = O(s) ; where s is the steps where N to the size of the chess
+time complexity = O(s * N^2) ; 
+
+Since the chess size if always fixed the algorithm would actually be
+O(s) because in big O constants don't matter, anyway I added it for the corrector to see
